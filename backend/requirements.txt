@@ -1,0 +1,16 @@
+Django==5.0.6
+channels==4.1.0
+daphne==4.1.2
+neo4j==5.22.0
+google-generativeai==0.7.2
+# RAGAS uses the maintained Google GenAI SDK as its evaluator client.
+google-genai>=1.0,<2.0
+python-dotenv==1.0.1
+django-cors-headers==4.4.0
+langgraph>=1.0,<2.0
+# Optional evaluation stack. Used only by: python manage.py evaluate_rag
+ragas>=0.4,<0.5
+datasets>=4.0,<5.0
+litellm>=1.0
+# Required by Instructor's Gemini structured-output adapter, used by RAGAS.
+instructor[google-genai]>=1.0

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "matrix-director",
+    "question": "Who directed The Matrix?",
+    "reference_answer": "Lana Wachowski directed The Matrix."
+  },
+  {
+    "id": "tom-hanks-filmography",
+    "question": "Which movies did Tom Hanks act in?",
+    "reference_answer": "Tom Hanks acted in Sleepless in Seattle, You've Got Mail, Cast Away, Apollo 13, and Forrest Gump."
+  },
+  {
+    "id": "science-fiction-movies",
+    "question": "List all movies in the Sci-Fi genre.",
+    "reference_answer": "The Sci-Fi movies are The Matrix and The Matrix Reloaded."
+  },
+  {
+    "id": "top-gun-role",
+    "question": "What character did Tom Cruise play in Top Gun?",
+    "reference_answer": "Tom Cruise played Maverick in Top Gun."
+  },
+  {
+    "id": "forrest-gump-director",
+    "question": "Who directed Forrest Gump?",
+    "reference_answer": "Robert Zemeckis directed Forrest Gump."
+  }
+]

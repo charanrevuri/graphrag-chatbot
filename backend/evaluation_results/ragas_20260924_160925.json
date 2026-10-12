@@ -1,0 +1,95 @@
+{
+  "report": {
+     "generated_at": "2026-09-24T16:09:25",
+    "evaluator_model": "gemini-3.7-flash",
+    "metrics": [
+      "context_precision",
+      "context_recall",
+      "factual_correctness"
+    ]
+   
+  },
+  "summary": {
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "factual_correctness": 1.0
+  },
+  "results": [
+    {
+      "case_id": "matrix-director",
+      "question": "Who directed The Matrix?",
+      "retrieved_contexts": [
+        "{\"p.name\": \"Lana Wachowski\"}",
+        "{\"m.title\": \"The Matrix\"}"
+      ],
+      "response": "Lana Wachowski directed The Matrix.",
+      "reference": "Lana Wachowski directed The Matrix.",
+      "scores": {
+        "context_precision": 1.0,
+        "context_recall": 1.0,
+        "factual_correctness": 1.0
+      }
+    },
+    {
+      "case_id": "tom-hanks-filmography",
+      "question": "Which movies did Tom Hanks act in?",
+      "retrieved_contexts": [
+        "{\"a.name\": \"Tom Hanks\", \"m.title\": \"Sleepless in Seattle\"}",
+        "{\"a.name\": \"Tom Hanks\", \"m.title\": \"You've Got Mail\"}",
+        "{\"a.name\": \"Tom Hanks\", \"m.title\": \"Cast Away\"}",
+        "{\"a.name\": \"Tom Hanks\", \"m.title\": \"Apollo 13\"}",
+        "{\"a.name\": \"Tom Hanks\", \"m.title\": \"Forrest Gump\"}"
+      ],
+      "response": "Tom Hanks acted in Sleepless in Seattle, You've Got Mail, Cast Away, Apollo 13, and Forrest Gump.",
+      "reference": "Tom Hanks acted in Sleepless in Seattle, You've Got Mail, Cast Away, Apollo 13, and Forrest Gump.",
+      "scores": {
+        "context_precision": 1.0,
+        "context_recall": 1.0,
+        "factual_correctness": 1.0
+      }
+    },
+    {
+      "case_id": "science-fiction-movies",
+      "question": "List all movies in the Sci-Fi genre.",
+      "retrieved_contexts": [
+        "{\"m.title\": \"The Matrix\", \"g.name\": \"Sci-Fi\"}",
+        "{\"m.title\": \"The Matrix Reloaded\", \"g.name\": \"Sci-Fi\"}"
+      ],
+      "response": "The Sci-Fi movies are The Matrix and The Matrix Reloaded.",
+      "reference": "The Sci-Fi movies are The Matrix and The Matrix Reloaded.",
+      "scores": {
+        "context_precision": 1.0,
+        "context_recall": 1.0,
+        "factual_correctness": 1.0
+      }
+    },
+    {
+      "case_id": "top-gun-role",
+      "question": "What character did Tom Cruise play in Top Gun?",
+      "retrieved_contexts": [
+        "{\"a.name\": \"Tom Cruise\", \"m.title\": \"Top Gun\", \"r.role\": \"Maverick\"}"
+      ],
+      "response": "Tom Cruise played Maverick in Top Gun.",
+      "reference": "Tom Cruise played Maverick in Top Gun.",
+      "scores": {
+        "context_precision": 1.0,
+        "context_recall": 1.0,
+        "factual_correctness": 1.0
+      }
+    },
+    {
+      "case_id": "forrest-gump-director",
+      "question": "Who directed Forrest Gump?",
+      "retrieved_contexts": [
+        "{\"m.title\": \"Forrest Gump\", \"p.name\": \"Robert Zemeckis\"}"
+      ],
+      "response": "Robert Zemeckis directed Forrest Gump.",
+      "reference": "Robert Zemeckis directed Forrest Gump.",
+      "scores": {
+        "context_precision": 1.0,
+        "context_recall": 1.0,
+        "factual_correctness": 1.0
+      }
+    }
+  ]
+}
